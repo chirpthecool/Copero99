@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Copero99: a Copero career simulator extension">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#111c33"/>
+    </linearGradient>
+    <linearGradient id="gem" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ecfeff"/>
+      <stop offset="0.35" stop-color="#a5f3fc"/>
+      <stop offset="0.75" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0.6">
+      <stop offset="0.38" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.7"/>
+      <stop offset="0.62" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#60a5fa" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#60a5fa" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34d399" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#34d399" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#facc15" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#facc15" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#facc15" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="tile"><rect x="120" y="88" width="144" height="144" rx="38"/></clipPath>
+  </defs>
+  <rect width="1280" height="320" rx="24" fill="url(#bg)"/>
+  <path d="M0 262 C 200 222, 400 302, 640 262 S 1080 222, 1280 262" fill="none" stroke="url(#wave1)" stroke-width="3"/>
+  <path d="M0 284 C 220 304, 420 244, 660 284 S 1060 304, 1280 280" fill="none" stroke="url(#wave2)" stroke-width="2"/>
+  <circle cx="192" cy="160" r="130" fill="url(#glow)"/>
+  <g clip-path="url(#tile)">
+    <rect x="120" y="88" width="144" height="144" fill="url(#gem)"/>
+    <rect x="80" y="48" width="160" height="240" fill="url(#shine)"/>
+  </g>
+  <g transform="translate(147 115) scale(3.75)" fill="none" stroke="#082f49" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 14.66v1.626a2 2 0 0 1-.976 1.696A5 5 0 0 0 7 21.978"/>
+    <path d="M14 14.66v1.626a2 2 0 0 0 .976 1.696A5 5 0 0 1 17 21.978"/>
+    <path d="M18 9h1.5a1 1 0 0 0 0-5H18"/>
+    <path d="M4 22h16"/>
+    <path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z"/>
+    <path d="M6 9H4.5a1 1 0 0 1 0-5H6"/>
+  </g>
+  <text x="316" y="164" font-family="Poppins, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="76" font-weight="700" fill="#f8fafc">Copero<tspan fill="#60a5fa">99</tspan></text>
+  <text x="320" y="214" font-family="Poppins, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" fill="#94a3b8">A Copero career simulator extension</text>
+</svg>

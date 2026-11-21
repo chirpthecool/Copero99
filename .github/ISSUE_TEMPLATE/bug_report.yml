@@ -1,0 +1,42 @@
+name: Bug report
+description: Something in Copero99 doesn't work or looks wrong
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting! A screenshot helps a lot.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Career mode
+      options: [Boost, Sandbox, Vanilla, Not in a career]
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Copero99 version
+      description: Shown in your userscript manager, or in the pop-up when the page loads.
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Device, browser and userscript manager
+      placeholder: "Windows 11, Edge, Tampermonkey 5.3"
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: Career data (optional)
+      description: In the panel, open the gear → Inspect data → Copy, and paste it here.
+      render: json
